@@ -1,0 +1,20 @@
+body{
+    background-color: black;
+    color: white;
+    scroll-behavior: smooth;
+    padding-top: 66px;   /* we did this so the navbar dodnt be on top of anything*/
+}
+
+.item{
+    position: relative;
+}
+
+.item span{
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: rgb(255, 208, 0);
+    padding: 5px 20px;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
